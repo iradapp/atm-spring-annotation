@@ -48,6 +48,7 @@ public class DataSourceFile implements DataSource {
             customers.put(c.getId(), c);
         }
         in.close();
+        System.out.println("lab4");
         return customers;
     }
 }
